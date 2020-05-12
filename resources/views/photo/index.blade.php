@@ -22,9 +22,9 @@
                         {{-- <p class="card-text">
                             {{$photo->description}}
                         </p> --}}
-                        <p class="card-text">
+                        {{-- <p class="card-text">
                             <a href="/projects/{{$photo->slug}}" class="card-link">Continue reading...</a>
-                        </p>
+                        </p> --}}
                     </div>
                     {{-- <div class="card-footer border-0 bg-white">
                         <span class="small">31st March 2020 <strong>·</strong> 1 min read</span>
