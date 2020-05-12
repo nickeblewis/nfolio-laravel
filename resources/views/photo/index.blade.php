@@ -19,9 +19,9 @@
                                 {{$photo->headline}}
                             </h4>
                         </a>
-                        <p class="card-text">
+                        {{-- <p class="card-text">
                             {{$photo->description}}
-                        </p>
+                        </p> --}}
                         <p class="card-text">
                             <a href="/projects/{{$photo->slug}}" class="card-link">Continue reading...</a>
                         </p>
