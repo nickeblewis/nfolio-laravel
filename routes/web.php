@@ -20,3 +20,6 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+
+Route::name('photo.index')->get('photos', 'PhotoController@index');
+Route::name('photo.show')->get('photos/{slug}', 'PhotoController@show');
